@@ -27,6 +27,7 @@ class Dog: Object {
 }
 
 class Person: Object {
+    
     @Persisted var name: String
     @Persisted var dogs: List<Dog>
 }
